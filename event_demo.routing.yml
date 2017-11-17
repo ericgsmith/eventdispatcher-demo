@@ -1,0 +1,7 @@
+event_demo.register_interest:
+  path: '/register-interest'
+  defaults:
+    _title: 'Register Interest'
+    _form: 'Drupal\event_demo\Form\RegisterInterestForm'
+  requirements:
+    _permission: 'access content'

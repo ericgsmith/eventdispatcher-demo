@@ -1,0 +1,6 @@
+services:
+  event_demo.registration_mailer:
+    class: Drupal\event_demo\EventSubscriber\RegistrationMailer
+    arguments: ["@plugin.manager.mail", "@current_user"]
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,5 @@
+name: Event Demo
+type: module
+description: Symfony Event Dispatcher Demo
+package: Demo
+core: 8.x
